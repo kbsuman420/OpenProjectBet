@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+    width: 100%;
+
+}
+.container {
+    height: 100% !important;
+    width: 100% !important;
+}
+.dashboard-header {
+    width: 100% !important;
+    height: 60px;
+    background-color: #fff;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dashboard-header .head {
+    font-size: 20px !important;
+    text-decoration: none;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.status-btns {
+    width: 70%;
+    display: flex !important;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+.status-btn {
+    font-size: 20px;
+    background-color: #868e96;
+    padding: 5px 5px;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+    border: 0;
+}
+.status-btns .active {
+    background-color: #4c6ef5;
+}
+.projects-card {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.project {
+    width: 360px;
+    background-color: #fff;
+    border: 1px solid black;
+    padding: 5px 20px;
+}
+.project img{
+    height: 200px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+.project-detail {
+    margin-top: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.project-detail h3 {
+    margin-right: 60px;
+}
+.project-detail img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.project p {
+    font-weight: 800;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.project p .clock {
+    height: 24px;
+    width: 24px;
+}
+
+.btns-view-bet-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.btn-view-bet {
+    font-size: 15px;
+    padding: 10px 15px;
+    background-color: #4c6ef5;
+    color: #fff;
+    border: 0;
+}
